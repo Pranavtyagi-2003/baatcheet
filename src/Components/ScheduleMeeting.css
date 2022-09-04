@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
+
+.contactus{
+    box-sizing: border-box;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    /* background:  url('https://img.freepik.com/premium-photo/businessman-hand-holding-smart-phone-with-icon-mobile-phone-mail-telephone-address-customer-service-call-center-contact-us-concept_20693-208.jpg?size=626&ext=jpg&ga=GA1.2.105855512.1659257506'); */
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.wrapper {
+  height: 620px;
+  width: 460px;
+  background-color: white;
+  border-radius: 24px;
+  margin-top: .5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.header {
+  width: 100%;
+  height: 32%;
+  background-image: url(https://images.unsplash.com/photo-1506305269769-53a5714a93be?ixlib=rb-1.2.1&auto=format&fit=crop&w=645&q=80);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+}
+
+.Contact_us {
+  margin: 0;
+  padding: 34px 24px 12px;
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.Do_you {
+  margin: 0;
+  padding: 0 24px;
+  font-size: 16px;
+  width: 360px;
+  opacity: 0.8;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 8px auto;
+  width: 76%;
+}
+
+input,
+textarea {
+  border: solid 1px #cbcbcb; 
+  border-radius: 6px;
+  width: 92%;
+  padding: 6px 12px;
+  outline: none;
+  margin: 4px auto;
+}
+
+input {
+  height: 28px;
+}
+
+textarea {
+  height: 62px;
+}
+
+.submitbtn {
+  height: 42px;
+  width: 60%;
+  margin: 24px auto;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  background: linear-gradient(to left bottom, #000046, #5B86E5);
+  cursor: pointer;
+}
+  @media screen and (max-width: 831px){
+    .wrapper{
+        width:356px;
+        margin-top: 0rem;
+    }
+    .contactus{
+        height: 100vh;
+        width: 100%;
+    }
+    .Contact_us{
+      font-size: 50px;
+    }
+}

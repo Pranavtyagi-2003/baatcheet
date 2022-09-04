@@ -1,0 +1,78 @@
+.main{
+    margin: auto;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 85vh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.cards{
+    margin-top: .5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.righthalf{
+    border-radius: 1rem;
+    margin-left: 2rem;
+    width: 35%;
+    height: 50vh;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /* background-color: red; */
+}
+.lefthalf{
+    border-radius: 1rem;
+    width: 35%;
+    height: 50vh;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /* background-color: green; */
+}
+.bottom-text{
+    margin: auto;
+    width: 70%;
+    margin-top: 2rem;
+    background-color: rgb(250, 250, 250);
+}
+.text>p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+.bottom-text>p{
+    font-family: serif;
+    font-size: 20px;
+}
+.leftimg>img{
+    margin-top: 1rem;
+    height: 9rem;
+    width: 9rem;
+}
+.rightimg>img{
+    margin-top: 1rem;
+    height: 9rem;
+    width: 9rem;
+}
+.lefthalf>button{
+    width: 80%;
+    height:6vh;
+    background-color: red;
+    color: white;
+    border: white;
+}
+.righthalf>button{
+    width: 80%;
+    height: 6vh;
+    background-color: red;
+    color: white;
+    border: white;
+}
+.btn1{
+    text-decoration: none;
+    color: inherit;
+}
+.btn2{
+    text-decoration: none;
+    color: inherit;
+}

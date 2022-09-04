@@ -1,23 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import NavbarPage from './Components/NavbarPage';
+import Meetingtable from './Components/Meetingtable';
+import ScheduleMeeting from './Components/ScheduleMeeting';
+import Section1 from './Components/Section1';
+import {BrowserRouter as Router , Route , Routes} from 'react-router-dom';
+import AdminPortal from './Components/AdminPortal';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <NavbarPage/>
+      <AdminPortal/> */}
+      <Router>
+        <Routes>
+          <Route path="/" element={<NavbarPage/>}></Route>
+        </Routes>
+        <Routes>
+          <Route path="/" element={<Section1/>}></Route>
+        </Routes>
+        <Routes>
+          <Route path="/scheduleMeeting" element={<ScheduleMeeting/>}></Route>
+        </Routes>
+        <Routes>
+          <Route path="/meetingtable" element={<Meetingtable/>}></Route>
+        </Routes>
+        <Routes>
+          <Route path="/adminportal" element={<AdminPortal/>}></Route>
+        </Routes>
+      </Router>
     </div>
   );
 }
